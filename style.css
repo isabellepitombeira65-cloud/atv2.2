@@ -1,0 +1,22 @@
+/* Estilos personalizados complementares ao Tailwind */
+.link-btn {
+    display: block;
+    width: 100%;
+    background-color: #1e293b;
+    color: #ffffff;
+    font-weight: 600;
+    padding: 14px 20px;
+    border-radius: 9999px;
+    border: 1px solid #475569;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.link-btn:hover {
+    background-color: #7c3aed;
+    border-color: #a78bfa;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(124, 58, 237, 0.4);
+}
